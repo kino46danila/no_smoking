@@ -1,4 +1,4 @@
-#include "no_smoking_header.h"
+#include "./no_smoking_header.h"
 
 using namespace std;
 
@@ -161,7 +161,7 @@ void new_smoke_info()
 
 void help_programm()
 {
- cout << " Для ввода новыз значений для расчёта \n "
+ cout << " Для ввода новых значений для расчёта \n"
 	 " нужно ввести в командной строке после программы -n или --new" << endl;
 	exit(0);
 }
